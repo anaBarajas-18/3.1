@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2f2ef;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: rgb(200, 238, 165);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    background: #4958b7;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(13, 43, 128);
+    padding: 8px;
+}
